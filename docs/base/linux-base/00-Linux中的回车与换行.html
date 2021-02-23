@@ -1,0 +1,809 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>00-Linux中的回车与换行 · playlinuxcn</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="playlinuxcn">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../assets/styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="01-字符集与字符编码.html" />
+    
+    
+
+    
+        <link rel="shortcut icon" href='../../assets/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../assets/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../assets/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../assets/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.google.com" target="_blank" class="custom-link">Google</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    运维必备
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    基础知识
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1.1" data-path="00-Linux中的回车与换行.html">
+            
+                <a href="00-Linux中的回车与换行.html">
+            
+                    
+                    00-Linux中的回车与换行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="01-字符集与字符编码.html">
+            
+                <a href="01-字符集与字符编码.html">
+            
+                    
+                    01-字符集与字符编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    Shell
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    运维中间件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Haproxy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Keepalive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    RabbitMQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    监控系统
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Prometheus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Grafana
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    AlertManager
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    自动化工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Jenkins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Expect
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    数据库
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    容器编排
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Docker-Compose
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    Kubernetes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    运维安全
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    IPTABLES
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    DDOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../safe/ssl/01-ssl介绍.html">
+            
+                <a href="../../safe/ssl/01-ssl介绍.html">
+            
+                    
+                    SSL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    GPG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../../pass">
+            
+                <span>
+            
+                    
+                    漏洞攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >00-Linux中的回车与换行</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; aleen42 all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#quot&#x56DE;&#x8F66;quot&#xFF08;carriage-return&#xFF09;&#x548C;quot&#x6362;&#x884C;quot&#xFF08;line-feed&#xFF09;&#x7684;&#x6765;&#x5386;&#x548C;&#x533A;&#x522B;">&quot;&#x56DE;&#x8F66;&quot;&#xFF08;carriage return&#xFF09;&#x548C;&quot;&#x6362;&#x884C;&quot;&#xFF08;line feed&#xFF09;&#x7684;&#x6765;&#x5386;&#x548C;&#x533A;&#x522B;</a><i></i></div></li>
+<li><div><a href="#linux&#x4E2D;&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x7684;&#x6362;&#x884C;&#x7B26;&#xFF1A;">Linux&#x4E2D;&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x7684;&#x6362;&#x884C;&#x7B26;&#xFF1A;</a><i></i></div></li>
+<li><div><a href="#macwindows&#x6587;&#x672C;&#x5728;-linux-&#x4E0B;&#x7684;&#x8F6C;&#x6362;">Mac/Windows&#x6587;&#x672C;&#x5728; Linux &#x4E0B;&#x7684;&#x8F6C;&#x6362;</a><i></i></div></li>
+<li><div><a href="#base64&#x7F16;&#x7801;&#x89E3;&#x7801;">base64&#x7F16;&#x7801;&#x89E3;&#x7801;</a><i></i></div></li>
+</ul>
+</div>
+
+<h4 id="&#x56DE;&#x8F66;&#xFF08;carriage-return&#xFF09;&#x548C;&#x6362;&#x884C;&#xFF08;line-feed&#xFF09;&#x7684;&#x6765;&#x5386;&#x548C;&#x533A;&#x522B;">&quot;&#x56DE;&#x8F66;&quot;&#xFF08;carriage return&#xFF09;&#x548C;&quot;&#x6362;&#x884C;&quot;&#xFF08;line feed&#xFF09;&#x7684;&#x6765;&#x5386;&#x548C;&#x533A;&#x522B;</h4>
+<p>&#x5728;&#x8BA1;&#x7B97;&#x673A;&#x8FD8;&#x6CA1;&#x6709;&#x51FA;&#x73B0;&#x4E4B;&#x524D;&#xFF0C;&#x6709;&#x4E00;&#x79CD;&#x53EB;&#x505A;&#x7535;&#x4F20;&#x6253;&#x5B57;&#x673A;&#xFF08;Teletype Model 33&#xFF09;&#x7684;&#x73A9;&#x610F;&#xFF0C;&#x6BCF;&#x79D2;&#x949F;&#x53EF;&#x4EE5;&#x6253; 10 &#x4E2A;&#x5B57;&#x7B26;&#x3002;</p>
+<p>&#x4F46;&#x662F;&#x5B83;&#x6709;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x5C31;&#x662F;&#x6253;&#x5B8C;&#x4E00;&#x884C;&#x6362;&#x884C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8981;&#x7528;&#x53BB; 0.2 &#x79D2;&#xFF0C;&#x6B63;&#x597D;&#x53EF;&#x4EE5;&#x6253;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x3002;&#x8981;&#x662F;&#x5728;&#x8FD9; 0.2 &#x79D2;&#x91CC;&#x9762;&#xFF0C;&#x53C8;&#x6709;&#x65B0;&#x7684;&#x5B57;&#x7B26;&#x4F20;&#x8FC7;&#x6765;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x5C06;&#x4E22;&#x5931;&#x3002;</p>
+<p>&#x4E8E;&#x662F;&#xFF0C;&#x7814;&#x5236;&#x4EBA;&#x5458;&#x60F3;&#x4E86;&#x4E2A;&#x529E;&#x6CD5;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x5C31;&#x662F;&#x5728;&#x6BCF;&#x884C;&#x540E;&#x9762;&#x52A0;&#x4E24;&#x4E2A;&#x8868;&#x793A;&#x7ED3;&#x675F;&#x7684;&#x5B57;&#x7B26;&#x3002;</p>
+<p>&#x4E00;&#x4E2A;&#x53EB;&#x505A;&quot;&#x56DE;&#x8F66;&quot;&#xFF0C;&#x544A;&#x8BC9;&#x6253;&#x5B57;&#x673A;&#x628A;&#x6253;&#x5370;&#x5934;&#x5B9A;&#x4F4D;&#x5728;&#x5DE6;&#x8FB9;&#x754C;&#xFF1B;</p>
+<p>&#x53E6;&#x4E00;&#x4E2A;&#x53EB;&#x505A;&quot;&#x6362;&#x884C;&quot;&#xFF0C;&#x544A;&#x8BC9;&#x6253;&#x5B57;&#x673A;&#x628A;&#x7EB8;&#x5411;&#x4E0B;&#x79FB;&#x4E00;&#x884C;&#x3002;</p>
+<p>&#x8FD9;&#x5C31;&#x662F;&quot;&#x6362;&#x884C;&quot;&#x548C;&quot;&#x56DE;&#x8F66;&quot;&#x7684;&#x6765;&#x5386;&#xFF0C;&#x4ECE;&#x5B83;&#x4EEC;&#x7684;&#x82F1;&#x8BED;&#x540D;&#x5B57;&#x4E0A;&#x4E5F;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#x4E00;&#x4E8C;&#x3002;</p>
+<p>&#x540E;&#x6765;&#xFF0C;&#x8BA1;&#x7B97;&#x673A;&#x53D1;&#x660E;&#x4E86;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x6982;&#x5FF5;&#x4E5F;&#x5C31;&#x88AB;&#x822C;&#x5230;&#x4E86;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x3002;&#x90A3;&#x65F6;&#xFF0C;&#x5B58;&#x50A8;&#x5668;&#x5F88;&#x8D35;&#xFF0C;&#x4E00;&#x4E9B;&#x79D1;&#x5B66;&#x5BB6;&#x8BA4;&#x4E3A;&#x5728;&#x6BCF;&#x884C;&#x7ED3;&#x5C3E;&#x52A0;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x592A;&#x6D6A;&#x8D39;&#x4E86;&#xFF0C;&#x52A0;&#x4E00;&#x4E2A;&#x5C31;&#x53EF;&#x4EE5;&#x3002;&#x4E8E;&#x662F;&#xFF0C;&#x5C31;&#x51FA;&#x73B0;&#x4E86;&#x5206;&#x6B67;&#x3002;</p>
+<p>Unix&#x7CFB;&#x7EDF;&#x91CC;&#xFF0C;&#x6BCF;&#x884C;&#x7ED3;&#x5C3E;&#x53EA;&#x6709;&quot;&lt;&#x6362;&#x884C;&gt;&quot;&#xFF0C;&#x5373;&quot;\n&quot;&#xFF1B;</p>
+<p>Windows&#x7CFB;&#x7EDF;&#x91CC;&#x9762;&#xFF0C;&#x6BCF;&#x884C;&#x7ED3;&#x5C3E;&#x662F;&quot;&lt;&#x56DE;&#x8F66;&gt;&lt;&#x6362;&#x884C;&gt;&quot;&#xFF0C;&#x5373;&quot;\r\n&quot;&#xFF1B;</p>
+<p>Mac&#x7CFB;&#x7EDF;&#x91CC;&#xFF0C;&#x6BCF;&#x884C;&#x7ED3;&#x5C3E;&#x662F;&quot;&lt;&#x56DE;&#x8F66;&gt;&quot;&#x3002;</p>
+<p>&#x4E00;&#x4E2A;&#x76F4;&#x63A5;&#x540E;&#x679C;&#x662F;&#xFF0C;Unix/Mac &#x7CFB;&#x7EDF;&#x4E0B;&#x7684;&#x6587;&#x4EF6;&#x5728;Windows&#x91CC;&#x6253;&#x5F00;&#x7684;&#x8BDD;&#xFF0C;&#x6240;&#x6709;&#x6587;&#x5B57;&#x4F1A;&#x53D8;&#x6210;&#x4E00;&#x884C;&#xFF1B;</p>
+<p>&#x800C; Windows &#x91CC;&#x7684;&#x6587;&#x4EF6;&#x5728; Unix/Mac&#x4E0B;&#x6253;&#x5F00;&#x7684;&#x8BDD;&#xFF0C;&#x5728;&#x6BCF;&#x884C;&#x7684;&#x7ED3;&#x5C3E;&#x53EF;&#x80FD;&#x4F1A;&#x591A;&#x51FA;&#x4E00;&#x4E2A;^M&#x7B26;&#x53F7;,&#x8FD9;&#x591A;&#x51FA;&#x6765;&#x7684; \r &#x88AB;vim&#x89E3;&#x91CA;&#x6210;&#x4E86;^M&#x3002;</p>
+<h4 id="linux&#x4E2D;&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x7684;&#x6362;&#x884C;&#x7B26;&#xFF1A;">Linux&#x4E2D;&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x7684;&#x6362;&#x884C;&#x7B26;&#xFF1A;</h4>
+<pre class="language-"><code class="lang-bash"><span class="token number">1</span>&#x3001;vim filename <span class="token punctuation">(</span>:set list<span class="token punctuation">)</span> 
+<span class="token number">2</span>&#x3001;cat -T filenae  &#x663E;&#x793A;TAB&#x952E;&#x7684;&#x5B57;&#x7B26;^I
+<span class="token number">3</span>&#x3001;cat -E filename &#x663E;&#x793A;&#x884C;&#x5C3E;&#x7684;&#x7ED3;&#x675F;&#x5B57;&#x7B26;$
+<span class="token number">4</span>&#x3001;cat -A filename &#x663E;&#x793A;&#x6240;&#x6709;&#x4E0D;&#x53EF;&#x89C1;&#x7684;&#x5B57;&#x7B26;
+</code></pre>
+<h4 id="macwindows&#x6587;&#x672C;&#x5728;-linux-&#x4E0B;&#x7684;&#x8F6C;&#x6362;">Mac/Windows&#x6587;&#x672C;&#x5728; Linux &#x4E0B;&#x7684;&#x8F6C;&#x6362;</h4>
+<blockquote>
+<p>&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;&#xFF1A;</p>
+<p>1&#x3001;Windows&#x4E0B;&#x7F16;&#x5199;&#x7684; SH &#x811A;&#x672C;&#xFF0C;&#x653E;&#x5230; Linux&#x4E0B;&#x6267;&#x884C;&#x53EF;&#x80FD;&#x4F1A;&#x51FA;&#x9519;&#x3002;</p>
+<p>2&#x3001;Linux&#x4E0B;&#x65B0;&#x5EFA;&#x7684;&#x6587;&#x6863;&#x5728;Windows&#x4E0B;&#x7528;&#x8BB0;&#x4E8B;&#x672C;&#x6253;&#x5F00;&#x5185;&#x5BB9;&#x4F1A;&#x6324;&#x5728;&#x4E00;&#x8D77;&#xFF08;&#x6CA1;&#x6709;&#x4E86;&#x6362;&#x884C;&#x7B26;&#xFF09;&#x3002;&#x539F;&#x56E0;&#x662F;&#x8BB0;&#x4E8B;&#x672C;&#x4E0D;&#x652F;&#x6301;\n&#x6362;&#x884C;&#xFF08;&#x5B83;&#x53EA;&#x652F;&#x6301;\r\n&#x5F62;&#x5F0F;&#x7684;&#x6362;&#x884C;&#xFF09;</p>
+</blockquote>
+<pre class="language-"><code class="lang-bash"><span class="token number">1</span>&#x3001;dos2unix/mac2unix filename
+<span class="token number">2</span>&#x3001;sed <span class="token string">&apos;s/^M//&apos;</span> filename <span class="token operator">&gt;</span> tmp_filename
+<span class="token number">3</span>&#x3001;vim &#x547D;&#x4EE4;&#x884C;&#x6A21;&#x5F0F;&#x4E0B;
+:set <span class="token assign-left variable">fileformat</span><span class="token operator">=</span>unix
+:set <span class="token assign-left variable">fileformat</span><span class="token operator">=</span>dos
+:set <span class="token assign-left variable">fileformat</span><span class="token operator">=</span>mac
+</code></pre>
+<h4 id="base64&#x7F16;&#x7801;&#x89E3;&#x7801;">base64&#x7F16;&#x7801;&#x89E3;&#x7801;</h4>
+<pre class="language-"><code class="lang-bash">&#x279C;  ~ <span class="token builtin class-name">echo</span> <span class="token number">123</span><span class="token operator">|</span>base64
+<span class="token assign-left variable">MTIzCg</span><span class="token operator">==</span>
+&#x279C;  ~ <span class="token builtin class-name">echo</span> -n <span class="token number">123</span><span class="token operator">|</span>base64
+MTIz
+&#x279C;  ~
+</code></pre>
+<p>&#x4F7F;&#x7528; echo &#x8F93;&#x51FA;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709; -n &#x53C2;&#x6570;&#x4F1A;&#x81EA;&#x52A8;&#x6DFB;&#x52A0;&#x6362;&#x884C;&#x7B26;&#xFF0C;&#x8FD9;&#x4F1A;&#x4EE4; base64 &#x7F16;&#x7801;&#x51FA;&#x6765;&#x7684;&#x7ED3;&#x679C;&#x4E0D;&#x7B26;&#x5408;&#x9884;&#x671F;&#x3002;</p>
+<p>&#x6BD4;&#x5982;&#x5728; k8s &#x4E2D;&#x505A; secret &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6DFB;&#x52A0;&#x52A0;&#x5BC6;&#x53D8;&#x91CF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x4F7F;&#x7528; -n &#x53BB;&#x9664;&#x6362;&#x884C;&#x7B26;&#xFF0C;&#x5728;&#x5BB9;&#x5668;&#x4E2D;&#x4FBF;&#x4E0D;&#x80FD;&#x6B63;&#x5E38;&#x89E3;&#x7801;&#x3002; </p>
+<footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x7AE0;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2021-02-23 11:42:56
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="01-字符集与字符编码.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 01-字符集与字符编码">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"00-Linux中的回车与换行","level":"1.2.1.1","depth":3,"next":{"title":"01-字符集与字符编码","level":"1.2.1.2","depth":3,"path":"base/linux-base/01-字符集与字符编码.md","ref":"base/linux-base/01-字符集与字符编码.md","articles":[]},"previous":{"title":"基础知识","level":"1.2.1","depth":2,"ref":"","articles":[{"title":"00-Linux中的回车与换行","level":"1.2.1.1","depth":3,"path":"base/linux-base/00-Linux中的回车与换行.md","ref":"base/linux-base/00-Linux中的回车与换行.md","articles":[]},{"title":"01-字符集与字符编码","level":"1.2.1.2","depth":3,"path":"base/linux-base/01-字符集与字符编码.md","ref":"base/linux-base/01-字符集与字符编码.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["page-treeview","code","pageview-count","popup","tbfed-pagefooter","favicon","search-plus","expandable-chapters","hide-element","back-to-top-button","splitter","-lunr","-search","-sharing","sharing-plus","chapter-fold","prism","-highlight","theme-comscore","livereload"],"styles":{"website":"assets/styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"page-treeview":{"collapsed":false,"copyright":"Copyright © aleen42","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"prism":{"css":["prismjs/themes/prism.css"]},"livereload":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":1},"favicon":{"shortcut":"assets/favicon.ico","bookmark":"assets/favicon.ico","appleTouch":"assets/favicon.ico","appleTouchMore":{"120x120":"assets/favicon.ico","180x180":"assets/favicon.ico"}},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"all":["facebook","google","linkedin","twitter","weibo","qq"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"playlinuxcn","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"playlinuxcn","language":"zh-hans","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"Google":"https://www.google.com"}},"gitbook":"*","description":"Linux 运维知识体系","extension":null},"file":{"path":"base/linux-base/00-Linux中的回车与换行.md","mtime":"2021-02-23T03:42:56.186Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-23T03:39:43.761Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
