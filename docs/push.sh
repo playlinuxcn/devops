@@ -7,6 +7,7 @@ else
    msg=$@
 fi
 
+gitbook build
 git add .
 git commit -m "$msg"
 git push
